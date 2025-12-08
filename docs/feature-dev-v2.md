@@ -22,7 +22,7 @@ This document outlines the step-by-step plan to build the static mockup for the 
     *   [x] **Forgot Password Page:** Email input for reset link.
 
 4.  **Dashboards**
-    *   [x] **Admin Dashboard:** Overview stats (bookings today, pending approvals), charts (utilization), recent activity feed. (Feature 3.6)
+    *   [x] **Admin Dashboard:** Overview stats (bookings today, room utilization), charts (utilization), recent activity feed. (Feature 3.6)
     *   [x] **User Dashboard:** Upcoming personal bookings, quick book action, recent notifications.
 
 ## Phase 2: Meeting Rooms Management (Subsystem 1)
@@ -58,7 +58,7 @@ This document outlines the step-by-step plan to build the static mockup for the 
 
 4.  **Booking Administration**
     *   [ ] **All Bookings List:** Admin view of all system bookings with advanced filters. (Feature 2.4)
-    *   [ ] **Approval Queue:** Dedicated view for "Pending" bookings with Approve/Reject actions. (Feature 2.9)
+    *   *Note: Approval Queue removed - system uses auto-approval on first-come-first-served basis*
 
 ## Phase 4: Administrative Management (Subsystem 3)
 **Goal:** Build the backend management and reporting interfaces.
